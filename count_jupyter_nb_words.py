@@ -40,6 +40,6 @@ def count_words_in_markdown(notebook_file):
             
     return word_count
 
-fname = sys.argv[1] # Provide notebook file name
-word_count = count_words_in_markdown(fname)
+# fname = sys.argv[1] # Provide notebook file name
+word_count = count_words_in_markdown("246518.ipynb")
 print(f"Total number of words in markdown cells (ignoring LaTeX and figures): {word_count}")
